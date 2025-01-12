@@ -1,8 +1,8 @@
-// LINK:  ../../data/models/product_model.dart
-// ANCHOR: Product Entity Definition
-// SECTION: Định nghĩa сущность Product
+// LINK:  ../../data/models/Student_model.dart
+// ANCHOR: Student Entity Definition
+// SECTION: Định nghĩa сущность Student
 // NOTE: Lớp này định nghĩa cấu trúc dữ liệu của một sản phẩm.
-class Product {
+class Student {
   // NOTE: ID duy nhất của sản phẩm.
   final String id;
   // NOTE: Đường dẫn URL tới hình ảnh của sản phẩm.
@@ -18,8 +18,8 @@ class Product {
   // NOTE: Sở thích hoặc mô tả thêm về sản phẩm.
   final String soThich;
 
-  // NOTE: Constructor cho lớp Product.
-  Product({
+  // NOTE: Constructor cho lớp Student.
+  Student({
     required this.id,
     required this.imageUrl,
     required this.hoTen,
